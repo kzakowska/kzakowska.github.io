@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
-  <link rel="icon" type="image/x-icon" href="...">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <title>Karolina Żakowska</title>
 </head>
-
 <body>
-  <main class="my-anim">
-    
-    <section class="skills container">
-      <div>
-        <i class="devicon-html5-plain"></i>
-        <h2>HTML 5</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem fugit earum deserunt eligendi rem itaque et totam, dolore ex!</p>
-      </div>
+    <main>
 
-      <div>
-        <i class="devicon-css3-plain"></i>
-        <h2>CSS 3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem fugit earum deserunt eligendi rem itaque et totam, dolore ex!</p>
-      </div>
+        <!-- navbar -->
+        <nav class="navbar">
+        <div class="name">Karolina Żakowska</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
 
-      <div>
-        <i class="devicon-figma-plain"></i>
-        <h2>FIGMA</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem fugit earum deserunt eligendi rem itaque et totam, dolore ex!</p>
-      </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">O mnie</a></li>
+                <li><a href="#">Umiejętności</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+        </nav>
+        &nbsp;
 
-    </section>
+        <!-- hero -->
+        <section class="hero">
+            <img src="https://picsum.photos/600/400" alt="main-img">
+            <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum totam fugit sit placeat eius.</p>
+            <a href="#">Skontaktuj się ze mną</a>
+            </div>
+            
+        </section>
 
-  </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script>
-    gsap.from(".my-anim", {
-      duration: .5,
-      opacity: 0,
-      delay: .2,
-      stagger: .2,
-      force3D: true
-    });
+    </main>
 
-  </script>
+    <footer>
+
+    </footer>
+
 </body>
-
 </html>
